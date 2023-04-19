@@ -7,10 +7,22 @@ export function Meditation() {
     const renderBoxBreathing = () => {
         return (
             <>
-                <div id="box">
-                    <div id="lineTop"></div>
-                    <div id="lineBottom"></div>
+                <div>
+                    Breath Work
                 </div>
+
+                <div>
+                    Box Breathing
+                </div>
+
+
+                <div className="box2">
+                    <span className="top"></span>
+                    <span className="right"></span>
+                    <span className="bottom"></span>
+                    <span className="left"></span>
+                </div>
+
             </>
 
         )
@@ -24,7 +36,6 @@ export function Meditation() {
             {renderBoxBreathing()}
         </>
 
-    
         )
 
 }
