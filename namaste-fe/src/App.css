@@ -1,0 +1,24 @@
+#root {
+  margin: 0 auto;
+  padding: 2rem;
+}
+
+
+.nav-bar {
+  text-align: center;
+  width: 800px;
+}
+
+.menu-ul {
+  list-style-type: none;
+}
+
+.menu-li {
+  display: inline-block;
+  padding: 1rem;
+}
+
+.namaste-healthy {
+  /* margin:auto; */
+  text-align: center;
+}
