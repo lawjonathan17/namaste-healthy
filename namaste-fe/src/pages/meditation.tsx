@@ -2,7 +2,7 @@ import { render } from 'react-dom'
 
 import './meditation.css'
 
-import { $Description, $Header, $Text, $Topic } from "./common"
+import { $Body, $Description, $Header, $Text, $Topic } from "./common"
 
 
 // submod
@@ -38,7 +38,6 @@ export function Meditation() {
                     </ul>
                 </div>
 
-
                 <div className="box-wrapper">
                     <div className="box-inhale">Inhale</div>
                     <div className="inhale-hold">Hold</div>
@@ -51,8 +50,6 @@ export function Meditation() {
                         <span className="left"></span>
                     </div>
                 </div>
-
-
             </>
 
         )
@@ -61,9 +58,12 @@ export function Meditation() {
 
     return (
         <>
-            <$Header>Meditation</$Header>
-        
-            {renderBoxBreathing()}
+            <$Body>
+                <$Header>Meditation</$Header>
+
+                {renderBoxBreathing()}
+            </$Body>
+
         </>
 
         )
