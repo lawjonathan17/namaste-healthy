@@ -2,6 +2,18 @@
     font-size: 1.4em;
 }
 
+.box-wrapper {
+  position: relative;
+  margin: auto;
+  width: 600px;
+  height: 500px;
+}
+
+.box-inhale {
+  position: absolute;
+  top: 100px;
+  transform: rotate(-90deg);
+}
 
 .box{
   position: relative;
@@ -11,11 +23,6 @@
   color: #fff;
   background: transparent;
   overflow: hidden;
-  /* border-top: 1px solid rgba(255, 49, 49, 0.5);
-  border-right: 1px solid rgba(0, 255, 255, 0.5);
-  border-bottom: 1px solid rgba(57, 255, 20, 0.5);
-  border-left: 1px solid rgba(255, 255, 113, 0.5);
-   */
   border: 1px solid #60A3FF;
   display: flex;
   flex-direction: column;

@@ -39,11 +39,11 @@ export function Meditation() {
                 </div>
 
 
-                <div>
-                    <div>Inhale</div>
-                    <div>Hold</div>
-                    <div>Exhale</div>
-                    <div>Hold</div>
+                <div className="box-wrapper">
+                    <div className="box-inhale">Inhale</div>
+                    <div className="inhale-hold">Hold</div>
+                    <div className="box-exhale">Exhale</div>
+                    <div className="exhale-hold">Hold</div>
                     <div className="box">
                         <span className="top"></span>
                         <span className="right"></span>
