@@ -5,8 +5,14 @@
 
 
 .nav-bar {
-  text-align: center;
+  /* text-align: center; */
+  margin: auto;
   width: 800px;
+}
+
+.menu-nav {
+  margin: auto;
+  text-align: center;
 }
 
 .menu-ul {
