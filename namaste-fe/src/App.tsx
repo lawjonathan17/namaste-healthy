@@ -6,8 +6,7 @@ import { Link, Routes, Route } from "react-router-dom"
 
 // Pages
 import Asanas from "./pages/asanas"
-import { About } from "./pages/about"
-import { Home } from "./pages/home"
+import { Yoga } from "./pages/yoga"
 import { Meditation } from "./pages/meditation"
 
 
@@ -23,8 +22,7 @@ function App() {
 
           <nav className="menu-nav">
             <ul className="menu-ul">
-              <li className="menu-li"><Link to="/">Home</Link></li>
-              <li className="menu-li"><Link to="/about">About</Link></li>
+              <li className="menu-li"><Link to="/">Yoga</Link></li>
               <li className="menu-li"><Link to="/asanas">Asanas</Link></li>
               <li className="menu-li"><Link to="/meditation">Meditation</Link></li>
             </ul>
@@ -42,8 +40,7 @@ function App() {
       {renderNavbar()}
 
       <Routes>
-        <Route path="/" element={<Home />} />
-        <Route path="/about" element={<About />} />
+        <Route path="/" element={<Yoga />} />
         <Route path="/asanas" element={<Asanas />} />
         <Route path="/meditation" element={<Meditation />} />
       </Routes>

@@ -1,6 +1,6 @@
 import {useEffect, useState} from "react";
 
-import { $Header } from "./common"
+import { $Body, $Header } from "./common"
 
 
 interface Asana {
@@ -11,10 +11,7 @@ interface Asana {
 }
 
 const Asanas = () => {
-
-    // const [data, setData] = useState<Asana>([]);
     const [data, setData] = useState<Asana[]>([]);
-
 
     useEffect(() => {
     async function fetchData() {
@@ -48,11 +45,12 @@ const Asanas = () => {
     }
 
     return (
-        <>
+    <>
+        <$Body>
             <$Header>Asanas</$Header>
-            {/* <h2>{data.name}</h2> */}
             {renderAsanas()}
-        </>
+        </$Body>
+    </>
     )
 }
 

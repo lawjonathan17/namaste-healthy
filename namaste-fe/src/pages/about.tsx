@@ -1,3 +1,11 @@
+import { $Body, $Header } from "./common"
+
 export function About() {
-    return <h1>About</h1>
+
+    return (
+        <$Body>
+            <$Header>About</$Header>
+        </$Body>
+
+    )
 }
