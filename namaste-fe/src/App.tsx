@@ -8,7 +8,7 @@ import { Link, Routes, Route } from "react-router-dom"
 import Asanas from "./pages/asanas"
 import { Yoga } from "./pages/yoga"
 import { Meditation } from "./pages/meditation"
-
+import { Philosophy } from "./pages/philosophy"
 
 
 
@@ -25,6 +25,7 @@ function App() {
               <li className="menu-li"><Link to="/">Yoga</Link></li>
               <li className="menu-li"><Link to="/asanas">Asanas</Link></li>
               <li className="menu-li"><Link to="/meditation">Meditation</Link></li>
+              <li className="menu-li"><Link to="/philosophy">Philosophy</Link></li>
             </ul>
           </nav>
         </div>
@@ -43,6 +44,7 @@ function App() {
         <Route path="/" element={<Yoga />} />
         <Route path="/asanas" element={<Asanas />} />
         <Route path="/meditation" element={<Meditation />} />
+        <Route path="/philosophy" element={<Philosophy />} />
       </Routes>
     </>
 
