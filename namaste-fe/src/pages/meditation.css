@@ -6,13 +6,37 @@
   position: relative;
   margin: auto;
   width: 600px;
-  height: 500px;
+  height: 600px;
+}
+
+.box-text{
+  font-size: 2em;
+  font-weight: 500;
 }
 
 .box-inhale {
   position: absolute;
-  top: 100px;
+  top: 200px;
   transform: rotate(-90deg);
+}
+
+.inhale-hold {
+  position: absolute;
+  top: -60px;
+  right: 250px;
+}
+
+.box-exhale {
+  position: absolute;
+  top: 200px;
+  right: 0px;
+  transform: rotate(90deg);
+}
+
+.exhale-hold {
+  position: absolute;
+  top: 450px;
+  right: 250px;
 }
 
 .box{
