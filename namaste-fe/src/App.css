@@ -13,9 +13,6 @@ body {
 
 
 .nav-bar {
-  /* text-align: center; */
-  /* margin: auto; */
-  /* width: 800px; */
   position: sticky;
   /* safari */
   position: -webkit-sticky;
@@ -36,6 +33,7 @@ body {
 
 .menu-ul {
   list-style-type: none;
+  font-size: 1.4em;
 }
 
 .menu-li {
